@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Моя первая страница</title>
+</head>
+<body>
+<h1>Заголовок номер один</h1>
+<hr>
+<a href="https://ya.ru">ссылка на Yandex</a>
+<br>
+<form action="/test" method="post">
+    <label>Ваше имя
+        <input type="text" name="clientName">
+    </label>
+    <label>Ваша фамилия
+        <input type="text" name="clientFamilyName">
+    </label>
+    <label>Выберите пол
+        <input type="radio" value="man" name="gender">муж
+        <input type="radio" value="woman" name="gender">жен
+    </label><br>
+    <label>Адрес электронной почты
+        <input type="email" name="clientEmail">
+    </label>
+    <label>Домашний адрес
+        <textarea name="address" placeholder="Введите домашний адресс"></textarea>
+    </label><br>
+    <label>Выберите пункт
+        <select name="select">
+            <option>Пункт1</option>
+            <option>Пункт2</option>
+            <option>Пункт3</option>
+        </select>
+    </label>
+    <label>Вы впервые отправляете заявку?
+        <input type="checkbox" name="checkBox">
+    </label>
+    <br>
+    <button type="submit">Отправить заявку</button>
+</form>
+<a href="page2.html">Ссылка на вторую страницу</a>
+</body>
+</html>
