@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Моя первая страница</title>
@@ -16,16 +16,21 @@
     <label>Ваша фамилия
         <input type="text" name="clientFamilyName">
     </label>
-    <label>Выберите пол
-        <input type="radio" value="man" name="gender">муж
-        <input type="radio" value="woman" name="gender">жен
-    </label><br>
+    <span>Выберите пол</span>
+    <label>
+        <input type="radio" value="man" name="gender">мужской
+    </label>
+    <label>
+        <input type="radio" value="woman" name="gender">женский
+    </label>
+    <br>
     <label>Адрес электронной почты
         <input type="email" name="clientEmail">
     </label>
     <label>Домашний адрес
         <textarea name="address" placeholder="Введите домашний адресс"></textarea>
-    </label><br>
+    </label>
+    <br>
     <label>Выберите пункт
         <select name="select">
             <option>Пункт1</option>
@@ -33,8 +38,15 @@
             <option>Пункт3</option>
         </select>
     </label>
-    <label>Вы впервые отправляете заявку?
-        <input type="checkbox" name="checkBox">
+    <label>Выберите пункт или несколько пунктов
+        <select name="multi-select" multiple>
+            <option>Пункт1</option>
+            <option>Пункт2</option>
+            <option>Пункт3</option>
+        </select>
+    </label>
+    <label>
+        <input type="checkbox" name="checkBox">Вы впервые отправляете заявку?
     </label>
     <br>
     <button type="submit">Отправить заявку</button>
